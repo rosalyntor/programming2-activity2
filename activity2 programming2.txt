@@ -1,0 +1,36 @@
+package ACTIVITY2;
+
+import java.util.Scanner;
+
+public class CandyMachine {
+
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        System.out.println("Welcome to RRRRM CANDY SHOP!");
+        System.out.println("(Candies are avilable, you may get it by your own.)");
+
+        System.out.print("How much money do you have? >"); //prompts for a whole number
+        double money = console.nextDouble();
+        System.out.printf("%.2f, that's all?", money);
+
+        System.out.println("Well, let me tell you what we got here.");
+        System.out.println("A 25php each M&M's");
+        System.out.println("B 30php each Snickers");
+        System.out.println("C 42php each Hershey Kisses");
+        System.out.println("D 55php each Hot Tamales");
+        System.out.println("E 65php each Starburst");
+        System.out.println("F 10php each balikotcha");
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("So, What do you want? >"); //prompts for a whole number
+        String a = input.next();
+        if (a.equals("A"))
+            if (money > 1000)
+        
+        System.out.println("HAVE A GOOD DAY!!! BACK AGAIN MA'AM/SIR.THANK YOU FOR BUYING OUR PRODUCT."); 
+    }
+}
